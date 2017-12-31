@@ -22,7 +22,3 @@ class Loader extends PluginBase{
         }
     }
 }
-
-      }
-   }
-}
