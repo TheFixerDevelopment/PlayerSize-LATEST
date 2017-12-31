@@ -1,6 +1,6 @@
 <?php
 
-namespace emanuele0204\PlayerSize;
+namespace emanuele0204;
 
 use pocketmine\command\{Command, CommandSender};
 use pocketmine\entity\Entity;
