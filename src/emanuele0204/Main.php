@@ -7,7 +7,7 @@ use pocketmine\command\{Command, CommandSender};
 use pocketmine\entity\Entity;
 use pocketmine\{Server, Player};
 
-class PlayerSize extends PluginBase{
+class Main extends PluginBase{
     
     public $b = array();
     public function onEnable(){
