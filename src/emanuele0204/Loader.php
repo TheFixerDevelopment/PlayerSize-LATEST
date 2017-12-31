@@ -3,16 +3,15 @@
 namespace emanuele0204\PlayerSize;
 
 use pocketmine\plugin\PluginBase;
-use pocketmine\command\{Command, CommandSender};
 use pocketmine\entity\Entity;
 use pocketmine\{Server, Player};
 
-class Main extends PluginBase{
+class Loader extends PluginBase{
     
     public $b = array();
     public function onEnable(){
         $this->getLogger()->info("§8» §ePlayerSize active, loaded.");
-        $this->getServer()->getCommandMap()->register("size", new pSize($this));
+        $this->getServer()->getCommandMap()->register("size", new PlayerSize($this));
     }
     
     public function respawn(PlayerRespawnEvent $e){
