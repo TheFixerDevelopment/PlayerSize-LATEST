@@ -1,7 +1,7 @@
 name: PlayerSize
 author: Zeao
 api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
-main: emanuele0204\PlayerSize\Main
+main: emanuele0204\PlayerSize\Loader
 version: 1.2.6
 
 permissions:
