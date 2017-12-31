@@ -1,6 +1,6 @@
 <?php
 
-namespace emanuele0204\PlayerSize;
+namespace emanuele0204;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\entity\Entity;
