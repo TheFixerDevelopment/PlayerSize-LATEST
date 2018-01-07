@@ -11,7 +11,7 @@ class PlayerSize extends Command{
     private $p;
     public function __construct($plugin){
         $this->p = $plugin;
-        parent::__construct("size", "§aPlayerSize by §bVMPE development Team\n§d§l>>>>> §aPlayerSize §Help Page §d§l<<<<<\n§r&a/size <1-5> - §bChange your player size.\n§a/size reset - §bResets the size, and is all back to normal.");
+        parent::__construct("size", "Size plugin.");
     }
     
     public function execute(CommandSender $g, string $label, array $args){
